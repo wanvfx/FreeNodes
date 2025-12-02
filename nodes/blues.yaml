@@ -1463,73 +1463,7 @@ proxies:
   udp: true
   uuid: 2d535288-d08e-4de4-b674-fd8cb3c6e4d3
 - flow: xtls-rprx-vision
-  name: 🇷🇺RU_2|⬇️4.8MB/s
-  network: tcp
-  port: 443
-  server: russia.whitenet.online
-  servername: vk.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: russia
-- flow: xtls-rprx-vision
   name: 俄罗斯_1
-  network: tcp
-  port: 1888
-  server: inst.faceppm.ru
-  servername: www.kernel.org
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0f3c5d1e-21e7-4f5d-b57e-a308686e22f3
-- name: 俄罗斯_2
-  network: tcp
-  port: 35728
-  server: 178.236.16.98
-  servername: yahoo.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: a00d89f6-ab7e-4e30-a5e5-54c701d62c93
-- grpc-opts:
-    grpc-service-name: xyz
-  name: 俄罗斯_3
-  network: grpc
-  port: 4249
-  server: 51.250.106.20
-  servername: cloudflare.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4a6de183-2ad3-456c-b420-feeac81f6257
-- flow: xtls-rprx-vision
-  name: 日本_1
-  network: tcp
-  port: 42037
-  server: 47.79.32.82
-  servername: itunes.apple.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 1eff6d61-2f9f-4689-82a9-4232a8f48949
-- flow: xtls-rprx-vision
-  name: 拉脱维亚
-  network: tcp
-  port: 22231
-  server: lv2.ultima.foundation
-  servername: lv2.ultima.foundation
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 2dfa740c-8069-4993-8b96-c3e5dc540593
-- flow: xtls-rprx-vision
-  name: 俄罗斯_4
   network: tcp
   port: 443
   server: 85.192.24.131
@@ -1539,210 +1473,17 @@ proxies:
   type: vless
   udp: true
   uuid: 07e0d9f5-6ed1-4bfb-8c19-311a312cba7d
-- flow: xtls-rprx-vision
-  name: 新加坡_1
+- name: US_1
   network: tcp
-  port: 8443
-  server: 194.61.31.126
-  servername: www.microsoft.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 5f39f871-2fae-446e-99ad-719fa8be687c
-- grpc-opts:
-    grpc-service-name: 78e691d782c9b9b2cd3c5621
-  name: 德国_1
-  network: grpc
   port: 443
-  server: 194.61.31.126
-  servername: www.microsoft.com
+  server: zorox-net.senu-zer.online
+  servername: zorox-net.senu-zer.online
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 5f39f871-2fae-446e-99ad-719fa8be687c
-- flow: xtls-rprx-vision
-  name: 德国_2
-  network: tcp
-  port: 8443
-  server: de2.ultima.foundation
-  servername: sun6-21.userapi.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 2dfa740c-8069-4993-8b96-c3e5dc540593
-- name: 俄罗斯_5
-  network: tcp
-  port: 52900
-  server: wolfy.ufavpn.ru
-  servername: ozon.ru
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 97e7c83c-9346-49b4-85a5-1e3bbf7488b9
-- flow: xtls-rprx-vision
-  name: 俄羅斯_1
-  network: tcp
-  port: 8443
-  server: est01-ss01.tcp-reset-club.net
-  servername: stats.vk-portal.net
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 3b4d1c7f-4fd7-45bb-9251-79cd53a3e006
+  uuid: 224629c2-342b-4e54-bb75-b56cb7dabf30
 - name: 美国_1
-  network: tcp
-  port: 8080
-  server: 144.31.1.122
-  servername: /---Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 9036dc47-d0ec-4837-bf55-86f497937cff
-- flow: xtls-rprx-vision
-  name: 俄羅斯_2
-  network: tcp
-  port: 443
-  server: ru-cdn-cloud-2.ultima.foundation
-  servername: sun6-21.userapi.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 2dfa740c-8069-4993-8b96-c3e5dc540593
-- name: 俄罗斯_6
-  network: tcp
-  port: 42275
-  server: wolfy.ufavpn.ru
-  servername: eh.vk.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: ded39de0-6d5e-426b-90e8-b7dfeced29b2
-- flow: xtls-rprx-vision
-  name: 美国_2
-  network: tcp
-  port: 443
-  server: 154.31.113.124
-  servername: tesla.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: b964cfbe-5f8a-47ae-9f14-4a6e36bfed2b
-- flow: xtls-rprx-vision
-  name: 俄罗斯_7
-  network: tcp
-  port: 443
-  server: russia.whitenet.online
-  servername: vk.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 4ce38652-b84c-5aab-8b2c-f897a217b41b
-- name: 美国_3
-  network: tcp
-  port: 8080
-  server: 144.31.1.122
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 9036dc47-d0ec-4837-bf55-86f497937cff
-- flow: xtls-rprx-vision
-  name: 俄罗斯_8
-  network: tcp
-  port: 8443
-  server: est01-ss01.tcp-reset-club.net
-  servername: stats.vk-portal.net
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 3b4d1c7f-4fd7-45bb-9251-79cd53a3e006
-- flow: xtls-rprx-vision
-  name: 德国_3
-  network: tcp
-  port: 443
-  server: de-cdn.ultima.foundation
-  servername: web.max.ru
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 2dfa740c-8069-4993-8b96-c3e5dc540593
-- flow: xtls-rprx-vision
-  name: 奧地利
-  network: tcp
-  port: 22231
-  server: at.ultima.foundation
-  servername: at.ultima.foundation
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 2dfa740c-8069-4993-8b96-c3e5dc540593
-- flow: xtls-rprx-vision
-  name: 德國_241
-  network: tcp
-  port: 22231
-  server: nl2.ultima.foundation
-  servername: nl.ultima.foundation
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 2dfa740c-8069-4993-8b96-c3e5dc540593
-- flow: xtls-rprx-vision
-  name: 荷兰
-  network: tcp
-  port: 443
-  server: 46.17.103.204
-  servername: www.microsoft.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: f7312d02-d520-4e15-8266-fb2ec831ac66
-- flow: xtls-rprx-vision
-  name: 日本_2
-  network: tcp
-  port: 443
-  server: 154.31.113.124
-  servername: tesla.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: ac112cb4-5344-49c5-b0ad-a2062d7d95c8
-- name: 美国_4
-  network: tcp
-  port: 443
-  server: zorox-net.senu-zer.online
-  servername: zorox-net.senu-zer.online
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 224629c2-342b-4e54-bb75-b56cb7dabf30
-- name: US
-  network: tcp
-  port: 443
-  server: zorox-net.senu-zer.online
-  servername: zorox-net.senu-zer.online
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 224629c2-342b-4e54-bb75-b56cb7dabf30
-- name: 美国_5
   network: ws
   port: 2096
   server: news.zoom.us
@@ -1757,92 +1498,362 @@ proxies:
       host: zorox-net.senu-zer.online
     path: /
 - flow: xtls-rprx-vision
-  name: 🇷🇺_RU_俄罗斯
+  name: 美国_2
   network: tcp
-  port: 443
-  server: russia.whitenet.online
-  servername: vk.com
+  port: 25375
+  server: dwarvensniper.fonixapp.org
+  servername: stackoverflow.com
   skip-cert-verify: true
   tls: false
   type: vless
   udp: true
-  uuid: russia
+  uuid: a226ddd3-cc5c-41c3-ad7c-1e7cfd20357a
 - flow: xtls-rprx-vision
-  name: 🇸🇦_SA_沙特阿拉伯
+  name: 美国_3
+  network: tcp
+  port: 48138
+  server: antimage.fonixapp.org
+  servername: deepl.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: cd1bd810-ae03-4af8-a9cf-e39fb3220533
+- flow: xtls-rprx-vision
+  name: 美国_4
+  network: tcp
+  port: 44144
+  server: graygoat.fonixapp.org
+  servername: smallpdf.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 4b83aa50-6adf-4759-a928-b4a974e2ece6
+- flow: xtls-rprx-vision
+  name: 美国_5
+  network: tcp
+  port: 28351
+  server: greenwolf.fonixapp.org
+  servername: indeed.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 90def0cf-d5c6-4c15-8ed0-405e6ba56c1b
+- flow: xtls-rprx-vision
+  name: 德国_1
+  network: tcp
+  port: 8443
+  server: de2.ultima.foundation
+  servername: sun6-21.userapi.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 2dfa740c-8069-4993-8b96-c3e5dc540593
+- flow: xtls-rprx-vision
+  name: 荷兰_1
   network: tcp
   port: 443
-  server: ru01-blh02.tcp-reset-club.net
-  servername: www.kinopoisk.ru
+  server: 46.17.103.204
+  servername: www.microsoft.com
   skip-cert-verify: true
   tls: false
   type: vless
   udp: true
-  uuid: 3b4d1c7f-4fd7-45bb-9251-79cd53a3e006
-- name: 美国_6
+  uuid: f7312d02-d520-4e15-8266-fb2ec831ac66
+- flow: xtls-rprx-vision
+  name: 美国_6
   network: tcp
-  port: 8080
-  server: 144.31.1.122
-  servername: /---Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET
+  port: 36134
+  server: lifestealer.fonixapp.org
+  servername: stackoverflow.com
   skip-cert-verify: true
   tls: false
   type: vless
   udp: true
-  uuid: 9036dc47-d0ec-4837-bf55-86f497937cff
-- name: 新加坡_2
+  uuid: 2efbb638-c1ae-46bd-b418-b1f9c265e2d1
+- flow: xtls-rprx-vision
+  name: 德国_2
   network: tcp
-  password: Q9gofGxinwLv0TfDfdKmdttdPGxrhKQS
-  port: 5223
-  server: psg2-ag.t.sgateway.link
+  port: 22231
+  server: nl2.ultima.foundation
+  servername: nl.ultima.foundation
   skip-cert-verify: true
-  sni: pod-kr-g1.psusercontent.com
-  type: trojan
+  tls: false
+  type: vless
   udp: true
-- name: 美国_7
+  uuid: 2dfa740c-8069-4993-8b96-c3e5dc540593
+- flow: xtls-rprx-vision
+  name: 德国_3
+  network: tcp
+  port: 443
+  server: de-cdn.ultima.foundation
+  servername: web.max.ru
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 2dfa740c-8069-4993-8b96-c3e5dc540593
+- flow: xtls-rprx-vision
+  name: 美国_7
+  network: tcp
+  port: 443
+  server: nld26.luckernld.org
+  servername: www.cybo.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 40d7798a-6c76-4298-a9d4-9e6181cd2dd7
+- flow: xtls-rprx-vision
+  name: 美国_8
+  network: tcp
+  port: 443
+  server: nld26.luckernld.org
+  servername: www.cybo.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 40d7798a-6c76-4298-a9d4-9e6181cd2dd7
+- name: 俄罗斯_2
+  network: tcp
+  port: 52900
+  server: wolfy.ufavpn.ru
+  servername: ozon.ru
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 97e7c83c-9346-49b4-85a5-1e3bbf7488b9
+- flow: xtls-rprx-vision
+  name: 奥地利
+  network: tcp
+  port: 22231
+  server: at.ultima.foundation
+  servername: at.ultima.foundation
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 2dfa740c-8069-4993-8b96-c3e5dc540593
+- flow: xtls-rprx-vision
+  name: 美国_9
+  network: tcp
+  port: 54044
+  server: tidehunter.fonixapp.org
+  servername: smallpdf.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 6ec8234b-7192-4603-ac12-2b4bbc9c1113
+- flow: xtls-rprx-vision
+  name: 美国_10
+  network: tcp
+  port: 443
+  server: autos.jykvpn.com
+  servername: cdnjs.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 4b0735b5-672b-468f-af98-d6901d620e50
+- flow: xtls-rprx-vision
+  name: 美国_11
+  network: tcp
+  port: 18092
+  server: bountyhunter.fonixapp.org
+  servername: ilovepdf.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: fea633c3-cacf-41d7-951a-a04b578b0dcf
+- name: 加拿大
+  network: ws
+  port: 80
+  server: 14.102.228.75
+  servername: ov-canada1.09vpn.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: b49d8a13-12f6-4613-bb0d-3e2f6244f29c
+  ws-opts:
+    headers:
+      host: ov-canada1.09vpn.com
+    path: /vless/
+- name: 俄罗斯_3
+  network: tcp
+  port: 42275
+  server: wolfy.ufavpn.ru
+  servername: eh.vk.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: ded39de0-6d5e-426b-90e8-b7dfeced29b2
+- flow: xtls-rprx-vision
+  name: 美国_12
+  network: tcp
+  port: 443
+  server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
+  servername: i2pd.website
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0e8a6896-ad90-4a3b-89a3-77d64aa409e2
+- flow: xtls-rprx-vision
+  name: 俄罗斯_4
+  network: tcp
+  port: 443
+  server: 62.60.148.21
+  servername: st.ozone.ru
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 39e5cc2f-1294-4a42-bb58-306a8be785e1
+- flow: xtls-rprx-vision
+  name: 美国_13
+  network: tcp
+  port: 25059
+  server: istanbul.fonixapp.org
+  servername: yelp.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 88ba0958-d6e8-4c7b-9a80-e5180c520989
+- grpc-opts:
+    grpc-service-name: xyz
+  name: 德国_4
   network: grpc
-  password: Fv7ogJ6vfz
-  port: 36774
-  server: 209.200.246.53
+  port: 443
+  server: 217.13.111.94
+  servername: cloudflare.com
   skip-cert-verify: true
-  sni: cloudflare.com
-  type: trojan
+  tls: true
+  type: vless
   udp: true
+  uuid: 4a6de183-2ad3-456c-b420-feeac81f6257
+- flow: xtls-rprx-vision
+  name: 拉脱维亚
+  network: tcp
+  port: 22231
+  server: lv2.ultima.foundation
+  servername: lv2.ultima.foundation
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 2dfa740c-8069-4993-8b96-c3e5dc540593
+- name: 荷兰_2
+  network: ws
+  port: 443
+  server: 45.83.22.118
+  servername: zula.ir
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6a6f5102-de1b-4513-bde9-07d22d4889d5
+  ws-opts:
+    headers:
+      host: zula.ir
+    path: /ws
+- name: 俄罗斯_5
+  network: tcp
+  port: 35728
+  server: 178.236.16.98
+  servername: yahoo.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: a00d89f6-ab7e-4e30-a5e5-54c701d62c93
+- flow: xtls-rprx-vision
+  name: 俄罗斯_6
+  network: tcp
+  port: 1888
+  server: inst.faceppm.ru
+  servername: www.kernel.org
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0f3c5d1e-21e7-4f5d-b57e-a308686e22f3
+- grpc-opts:
+    grpc-service-name: xyz
+  name: 俄罗斯_7
+  network: grpc
+  port: 4249
+  server: 51.250.106.20
+  servername: cloudflare.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a6de183-2ad3-456c-b420-feeac81f6257
+- flow: xtls-rprx-vision
+  name: 美国_14
+  network: tcp
+  port: 443
+  server: 154.31.113.124
+  servername: tesla.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: b964cfbe-5f8a-47ae-9f14-4a6e36bfed2b
+- flow: xtls-rprx-vision
+  name: 美国_15
+  network: tcp
+  port: 443
+  server: 154.31.113.124
+  servername: tesla.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: ac112cb4-5344-49c5-b0ad-a2062d7d95c8
+- flow: xtls-rprx-vision
+  name: 美国_16
+  network: tcp
+  port: 443
+  server: ru-cdn-cloud-2.ultima.foundation
+  servername: sun6-21.userapi.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 2dfa740c-8069-4993-8b96-c3e5dc540593
+- name: US_2
+  network: tcp
+  port: 443
+  server: zorox-net.senu-zer.online
+  servername: zorox-net.senu-zer.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 224629c2-342b-4e54-bb75-b56cb7dabf30
+- flow: xtls-rprx-vision
+  name: 🇺🇸_US_美国
+  network: tcp
+  port: 44144
+  server: graygoat.fonixapp.org
+  servername: smallpdf.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 4b83aa50-6adf-4759-a928-b4a974e2ece6
 - name: 香港_1
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.18.95
-  skip-cert-verify: true
-  sni: ������
-  type: trojan
-  udp: true
-- name: 俄罗斯_9
-  network: tcp
-  password: Qzy7tgpRhu
-  port: 443
-  server: 37.18.14.33
-  skip-cert-verify: true
-  sni: ������
-  type: trojan
-  udp: true
-- name: 香港_2
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.18.95
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- name: 俄罗斯_10
-  network: tcp
-  password: Qzy7tgpRhu
-  port: 443
-  server: 37.18.14.33
-  skip-cert-verify: true
-  sni: '������ [By EbraSha] '
-  type: trojan
-  udp: true
-- name: 香港_3
   network: tcp
   password: BxceQaOe
   port: 443
@@ -1851,7 +1862,7 @@ proxies:
   sni: '������ [By EbraSha] b2n.ir/v2ray-configs | 690 '
   type: trojan
   udp: true
-- name: 俄罗斯_11
+- name: 俄罗斯_8
   network: tcp
   password: Qzy7tgpRhu
   port: 443
@@ -1860,34 +1871,7 @@ proxies:
   sni: sun9-101.userapi.com
   type: trojan
   udp: true
-- name: 俄罗斯_12
-  network: tcp
-  password: Qzy7tgpRhu
-  port: 443
-  server: 37.18.14.33
-  skip-cert-verify: true
-  sni: m.vk.com
-  type: trojan
-  udp: true
-- name: 俄罗斯_13
-  network: tcp
-  password: Qzy7tgpRhu
-  port: 443
-  server: 37.18.14.33
-  skip-cert-verify: true
-  sni: '������ [By EbraSha] b2n.ir/v2ray-configs | 28 '
-  type: trojan
-  udp: true
-- name: 俄罗斯_14
-  network: tcp
-  password: Qzy7tgpRhu
-  port: 443
-  server: 37.18.14.33
-  skip-cert-verify: true
-  sni: '������ [By EbraSha] trojan-RU '
-  type: trojan
-  udp: true
-- name: 俄罗斯_15
+- name: 俄罗斯_9
   network: tcp
   password: Qzy7tgpRhu
   port: 443
@@ -1896,7 +1880,7 @@ proxies:
   sni: sun6-22.userapi.com
   type: trojan
   udp: true
-- name: 俄罗斯_16
+- name: 俄罗斯_10
   network: tcp
   password: Qzy7tgpRhu
   port: 443
@@ -1905,34 +1889,7 @@ proxies:
   sni: m.vk.com
   type: trojan
   udp: true
-- name: 未知_1
-  network: tcp
-  password: Q9gofGxinwLv0TfDfdKmdttdPGxrhKQS
-  port: 5223
-  server: psg2-ag.t.sgateway.link
-  skip-cert-verify: true
-  sni: pod-kr-g1.psusercontent.com
-  type: trojan
-  udp: true
-- name: 未知_2
-  network: tcp
-  password: Q9gofGxinwLv0TfDfdKmdttdPGxrhKQS
-  port: 5223
-  server: psg2-ag.t.sgateway.link
-  skip-cert-verify: true
-  sni: pod-kr-g1.psusercontent.com
-  type: trojan
-  udp: true
-- name: 未知_3
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.18.95
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- name: 未知_4
+- name: 未知
   network: tcp
   password: BxceQaOe
   port: 443
@@ -1948,6 +1905,274 @@ proxies:
   server: 37.18.14.33
   skip-cert-verify: true
   sni: m.vk.com
+  type: trojan
+  udp: true
+- name: 俄罗斯_11
+  network: tcp
+  password: Qzy7tgpRhu
+  port: 443
+  server: 37.18.14.33
+  skip-cert-verify: true
+  sni: '������ [By EbraSha] b2n.ir/v2ray-configs | 587 '
+  type: trojan
+  udp: true
+- name: 俄罗斯_12
+  network: tcp
+  password: Qzy7tgpRhu
+  port: 443
+  server: 37.18.14.33
+  skip-cert-verify: true
+  sni: 37.18.14.33
+  type: trojan
+  udp: true
+- name: 俄罗斯_13
+  network: tcp
+  password: Qzy7tgpRhu
+  port: 443
+  server: 37.18.14.33
+  skip-cert-verify: true
+  sni: ������
+  type: trojan
+  udp: true
+- name: 俄罗斯_14
+  network: tcp
+  password: Qzy7tgpRhu
+  port: 443
+  server: 37.18.14.33
+  skip-cert-verify: true
+  sni: '������ [By EbraSha] '
+  type: trojan
+  udp: true
+- name: 俄罗斯_15
+  network: tcp
+  password: Qzy7tgpRhu
+  port: 443
+  server: 37.18.14.33
+  skip-cert-verify: true
+  sni: '������ [By EbraSha] trojan-RU '
+  type: trojan
+  udp: true
+- name: 香港_2
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.18.95
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- name: 俄罗斯_16
+  network: tcp
+  password: Qzy7tgpRhu
+  port: 443
+  server: 37.18.14.33
+  skip-cert-verify: true
+  sni: sun9-101.userapi.com
+  type: trojan
+  udp: true
+- name: 香港_3
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.18.95
+  skip-cert-verify: true
+  sni: ' [By EbraSha] b2n.ir/v2ray-configs | 690 '
+  type: trojan
+  udp: true
+- name: 香港_4
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 112.118.116.66
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 香港_5
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 112.118.116.66
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- name: 香港_6
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.18.95
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 香港_7
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.18.95
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- name: 俄罗斯_17
+  network: tcp
+  password: Qzy7tgpRhu
+  port: 443
+  server: 37.18.14.33
+  skip-cert-verify: true
+  sni: '������ [By EbraSha] b2n.ir/v2ray-configs | 28 '
+  type: trojan
+  udp: true
+- name: 香港_8
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.8
+  skip-cert-verify: true
+  sni: '������ [By EbraSha] b2n.ir/v2ray-configs | 75 '
+  type: trojan
+  udp: true
+- name: 香港_9
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.8
+  skip-cert-verify: true
+  sni: '������ [By EbraSha] b2n.ir/v2ray-configs | 749 '
+  type: trojan
+  udp: true
+- name: 香港_10
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.8
+  skip-cert-verify: true
+  sni: '������ [By EbraSha] Kon©️Central������️ping:229.77ms '
+  type: trojan
+  udp: true
+- name: 香港_11
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.8
+  skip-cert-verify: true
+  sni: 58.152.53.8
+  type: trojan
+  udp: true
+- name: 香港_12
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.8
+  skip-cert-verify: true
+  sni: '������ [By EbraSha] b2n.ir/v2ray-configs | 956 '
+  type: trojan
+  udp: true
+- name: 香港_13
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.8
+  skip-cert-verify: true
+  sni: '������ [By EbraSha] b2n.ir/v2ray-configs | 964 '
+  type: trojan
+  udp: true
+- name: 香港_14
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.8
+  skip-cert-verify: true
+  sni: '������ [By EbraSha] b2n.ir/v2ray-configs | 145 '
+  type: trojan
+  udp: true
+- name: 香港_15
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.8
+  skip-cert-verify: true
+  sni: '������ [By EbraSha] b2n.ir/v2ray-configs | 987 '
+  type: trojan
+  udp: true
+- name: 新加坡
+  network: tcp
+  password: Q9gofGxinwLv0TfDfdKmdttdPGxrhKQS
+  port: 5223
+  server: psg2-ag.t.sgateway.link
+  skip-cert-verify: true
+  sni: pod-kr-g1.psusercontent.com
+  type: trojan
+  udp: true
+- name: 香港_16
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.8
+  skip-cert-verify: true
+  sni: '������ [By EbraSha] b2n.ir/v2ray-configs | 851 '
+  type: trojan
+  udp: true
+- name: 美国_17
+  network: grpc
+  password: Fv7ogJ6vfz
+  port: 36774
+  server: 209.200.246.53
+  skip-cert-verify: true
+  sni: cloudflare.com
+  type: trojan
+  udp: true
+- name: 香港_17
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.18.95
+  skip-cert-verify: true
+  sni: 58.152.18.95
+  type: trojan
+  udp: true
+- name: 香港_18
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.18.95
+  skip-cert-verify: true
+  sni: ������
+  type: trojan
+  udp: true
+- name: 香港_19
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.18.95
+  skip-cert-verify: true
+  sni: ' '
+  type: trojan
+  udp: true
+- name: 香港_20
+  network: tcp
+  password: Q9gofGxinwLv0TfDfdKmdttdPGxrhKQS
+  port: 5223
+  server: hk3.t.sgateway.link
+  skip-cert-verify: true
+  sni: pod-hk-z1.psusercontent.com
+  type: trojan
+  udp: true
+- name: 香港_21
+  network: tcp
+  password: Q9gofGxinwLv0TfDfdKmdttdPGxrhKQS
+  port: 5223
+  server: hk3.t.sgateway.link
+  skip-cert-verify: true
+  sni: pod-hk-z1.psusercontent.com
+  type: trojan
+  udp: true
+- name: 香港_22
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.18.95
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
   type: trojan
   udp: true
 proxy-groups:
@@ -2197,54 +2422,77 @@ proxy-groups:
   - 德國_239
   - 德國_240
   - 🇩🇰DK_1|⬇️5.0MB/s
-  - 🇷🇺RU_2|⬇️4.8MB/s
   - 俄罗斯_1
-  - 俄罗斯_2
-  - 俄罗斯_3
-  - 日本_1
-  - 拉脱维亚
-  - 俄罗斯_4
-  - 新加坡_1
-  - 德国_1
-  - 德国_2
-  - 俄罗斯_5
-  - 俄羅斯_1
+  - US_1
   - 美国_1
-  - 俄羅斯_2
-  - 俄罗斯_6
   - 美国_2
-  - 俄罗斯_7
   - 美国_3
-  - 俄罗斯_8
-  - 德国_3
-  - 奧地利
-  - 德國_241
-  - 荷兰
-  - 日本_2
   - 美国_4
-  - US
   - 美国_5
-  - 🇷🇺_RU_俄罗斯
-  - 🇸🇦_SA_沙特阿拉伯
+  - 德国_1
+  - 荷兰_1
   - 美国_6
-  - 新加坡_2
+  - 德国_2
+  - 德国_3
   - 美国_7
+  - 美国_8
+  - 俄罗斯_2
+  - 奥地利
+  - 美国_9
+  - 美国_10
+  - 美国_11
+  - 加拿大
+  - 俄罗斯_3
+  - 美国_12
+  - 俄罗斯_4
+  - 美国_13
+  - 德国_4
+  - 拉脱维亚
+  - 荷兰_2
+  - 俄罗斯_5
+  - 俄罗斯_6
+  - 俄罗斯_7
+  - 美国_14
+  - 美国_15
+  - 美国_16
+  - US_2
+  - 🇺🇸_US_美国
   - 香港_1
+  - 俄罗斯_8
   - 俄罗斯_9
-  - 香港_2
   - 俄罗斯_10
-  - 香港_3
+  - 未知
+  - RU
   - 俄罗斯_11
   - 俄罗斯_12
   - 俄罗斯_13
   - 俄罗斯_14
   - 俄罗斯_15
+  - 香港_2
   - 俄罗斯_16
-  - 未知_1
-  - 未知_2
-  - 未知_3
-  - 未知_4
-  - RU
+  - 香港_3
+  - 香港_4
+  - 香港_5
+  - 香港_6
+  - 香港_7
+  - 俄罗斯_17
+  - 香港_8
+  - 香港_9
+  - 香港_10
+  - 香港_11
+  - 香港_12
+  - 香港_13
+  - 香港_14
+  - 香港_15
+  - 新加坡
+  - 香港_16
+  - 美国_17
+  - 香港_17
+  - 香港_18
+  - 香港_19
+  - 香港_20
+  - 香港_21
+  - 香港_22
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -2491,54 +2739,77 @@ proxy-groups:
   - 德國_239
   - 德國_240
   - 🇩🇰DK_1|⬇️5.0MB/s
-  - 🇷🇺RU_2|⬇️4.8MB/s
   - 俄罗斯_1
-  - 俄罗斯_2
-  - 俄罗斯_3
-  - 日本_1
-  - 拉脱维亚
-  - 俄罗斯_4
-  - 新加坡_1
-  - 德国_1
-  - 德国_2
-  - 俄罗斯_5
-  - 俄羅斯_1
+  - US_1
   - 美国_1
-  - 俄羅斯_2
-  - 俄罗斯_6
   - 美国_2
-  - 俄罗斯_7
   - 美国_3
-  - 俄罗斯_8
-  - 德国_3
-  - 奧地利
-  - 德國_241
-  - 荷兰
-  - 日本_2
   - 美国_4
-  - US
   - 美国_5
-  - 🇷🇺_RU_俄罗斯
-  - 🇸🇦_SA_沙特阿拉伯
+  - 德国_1
+  - 荷兰_1
   - 美国_6
-  - 新加坡_2
+  - 德国_2
+  - 德国_3
   - 美国_7
+  - 美国_8
+  - 俄罗斯_2
+  - 奥地利
+  - 美国_9
+  - 美国_10
+  - 美国_11
+  - 加拿大
+  - 俄罗斯_3
+  - 美国_12
+  - 俄罗斯_4
+  - 美国_13
+  - 德国_4
+  - 拉脱维亚
+  - 荷兰_2
+  - 俄罗斯_5
+  - 俄罗斯_6
+  - 俄罗斯_7
+  - 美国_14
+  - 美国_15
+  - 美国_16
+  - US_2
+  - 🇺🇸_US_美国
   - 香港_1
+  - 俄罗斯_8
   - 俄罗斯_9
-  - 香港_2
   - 俄罗斯_10
-  - 香港_3
+  - 未知
+  - RU
   - 俄罗斯_11
   - 俄罗斯_12
   - 俄罗斯_13
   - 俄罗斯_14
   - 俄罗斯_15
+  - 香港_2
   - 俄罗斯_16
-  - 未知_1
-  - 未知_2
-  - 未知_3
-  - 未知_4
-  - RU
+  - 香港_3
+  - 香港_4
+  - 香港_5
+  - 香港_6
+  - 香港_7
+  - 俄罗斯_17
+  - 香港_8
+  - 香港_9
+  - 香港_10
+  - 香港_11
+  - 香港_12
+  - 香港_13
+  - 香港_14
+  - 香港_15
+  - 新加坡
+  - 香港_16
+  - 美国_17
+  - 香港_17
+  - 香港_18
+  - 香港_19
+  - 香港_20
+  - 香港_21
+  - 香港_22
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -2789,54 +3060,77 @@ proxy-groups:
   - 德國_239
   - 德國_240
   - 🇩🇰DK_1|⬇️5.0MB/s
-  - 🇷🇺RU_2|⬇️4.8MB/s
   - 俄罗斯_1
-  - 俄罗斯_2
-  - 俄罗斯_3
-  - 日本_1
-  - 拉脱维亚
-  - 俄罗斯_4
-  - 新加坡_1
-  - 德国_1
-  - 德国_2
-  - 俄罗斯_5
-  - 俄羅斯_1
+  - US_1
   - 美国_1
-  - 俄羅斯_2
-  - 俄罗斯_6
   - 美国_2
-  - 俄罗斯_7
   - 美国_3
-  - 俄罗斯_8
-  - 德国_3
-  - 奧地利
-  - 德國_241
-  - 荷兰
-  - 日本_2
   - 美国_4
-  - US
   - 美国_5
-  - 🇷🇺_RU_俄罗斯
-  - 🇸🇦_SA_沙特阿拉伯
+  - 德国_1
+  - 荷兰_1
   - 美国_6
-  - 新加坡_2
+  - 德国_2
+  - 德国_3
   - 美国_7
+  - 美国_8
+  - 俄罗斯_2
+  - 奥地利
+  - 美国_9
+  - 美国_10
+  - 美国_11
+  - 加拿大
+  - 俄罗斯_3
+  - 美国_12
+  - 俄罗斯_4
+  - 美国_13
+  - 德国_4
+  - 拉脱维亚
+  - 荷兰_2
+  - 俄罗斯_5
+  - 俄罗斯_6
+  - 俄罗斯_7
+  - 美国_14
+  - 美国_15
+  - 美国_16
+  - US_2
+  - 🇺🇸_US_美国
   - 香港_1
+  - 俄罗斯_8
   - 俄罗斯_9
-  - 香港_2
   - 俄罗斯_10
-  - 香港_3
+  - 未知
+  - RU
   - 俄罗斯_11
   - 俄罗斯_12
   - 俄罗斯_13
   - 俄罗斯_14
   - 俄罗斯_15
+  - 香港_2
   - 俄罗斯_16
-  - 未知_1
-  - 未知_2
-  - 未知_3
-  - 未知_4
-  - RU
+  - 香港_3
+  - 香港_4
+  - 香港_5
+  - 香港_6
+  - 香港_7
+  - 俄罗斯_17
+  - 香港_8
+  - 香港_9
+  - 香港_10
+  - 香港_11
+  - 香港_12
+  - 香港_13
+  - 香港_14
+  - 香港_15
+  - 新加坡
+  - 香港_16
+  - 美国_17
+  - 香港_17
+  - 香港_18
+  - 香港_19
+  - 香港_20
+  - 香港_21
+  - 香港_22
   type: select
 - name: 📲 电报信息
   proxies:
@@ -3084,54 +3378,77 @@ proxy-groups:
   - 德國_239
   - 德國_240
   - 🇩🇰DK_1|⬇️5.0MB/s
-  - 🇷🇺RU_2|⬇️4.8MB/s
   - 俄罗斯_1
-  - 俄罗斯_2
-  - 俄罗斯_3
-  - 日本_1
-  - 拉脱维亚
-  - 俄罗斯_4
-  - 新加坡_1
-  - 德国_1
-  - 德国_2
-  - 俄罗斯_5
-  - 俄羅斯_1
+  - US_1
   - 美国_1
-  - 俄羅斯_2
-  - 俄罗斯_6
   - 美国_2
-  - 俄罗斯_7
   - 美国_3
-  - 俄罗斯_8
-  - 德国_3
-  - 奧地利
-  - 德國_241
-  - 荷兰
-  - 日本_2
   - 美国_4
-  - US
   - 美国_5
-  - 🇷🇺_RU_俄罗斯
-  - 🇸🇦_SA_沙特阿拉伯
+  - 德国_1
+  - 荷兰_1
   - 美国_6
-  - 新加坡_2
+  - 德国_2
+  - 德国_3
   - 美国_7
+  - 美国_8
+  - 俄罗斯_2
+  - 奥地利
+  - 美国_9
+  - 美国_10
+  - 美国_11
+  - 加拿大
+  - 俄罗斯_3
+  - 美国_12
+  - 俄罗斯_4
+  - 美国_13
+  - 德国_4
+  - 拉脱维亚
+  - 荷兰_2
+  - 俄罗斯_5
+  - 俄罗斯_6
+  - 俄罗斯_7
+  - 美国_14
+  - 美国_15
+  - 美国_16
+  - US_2
+  - 🇺🇸_US_美国
   - 香港_1
+  - 俄罗斯_8
   - 俄罗斯_9
-  - 香港_2
   - 俄罗斯_10
-  - 香港_3
+  - 未知
+  - RU
   - 俄罗斯_11
   - 俄罗斯_12
   - 俄罗斯_13
   - 俄罗斯_14
   - 俄罗斯_15
+  - 香港_2
   - 俄罗斯_16
-  - 未知_1
-  - 未知_2
-  - 未知_3
-  - 未知_4
-  - RU
+  - 香港_3
+  - 香港_4
+  - 香港_5
+  - 香港_6
+  - 香港_7
+  - 俄罗斯_17
+  - 香港_8
+  - 香港_9
+  - 香港_10
+  - 香港_11
+  - 香港_12
+  - 香港_13
+  - 香港_14
+  - 香港_15
+  - 新加坡
+  - 香港_16
+  - 美国_17
+  - 香港_17
+  - 香港_18
+  - 香港_19
+  - 香港_20
+  - 香港_21
+  - 香港_22
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
@@ -3379,54 +3696,77 @@ proxy-groups:
   - 德國_239
   - 德國_240
   - 🇩🇰DK_1|⬇️5.0MB/s
-  - 🇷🇺RU_2|⬇️4.8MB/s
   - 俄罗斯_1
-  - 俄罗斯_2
-  - 俄罗斯_3
-  - 日本_1
-  - 拉脱维亚
-  - 俄罗斯_4
-  - 新加坡_1
-  - 德国_1
-  - 德国_2
-  - 俄罗斯_5
-  - 俄羅斯_1
+  - US_1
   - 美国_1
-  - 俄羅斯_2
-  - 俄罗斯_6
   - 美国_2
-  - 俄罗斯_7
   - 美国_3
-  - 俄罗斯_8
-  - 德国_3
-  - 奧地利
-  - 德國_241
-  - 荷兰
-  - 日本_2
   - 美国_4
-  - US
   - 美国_5
-  - 🇷🇺_RU_俄罗斯
-  - 🇸🇦_SA_沙特阿拉伯
+  - 德国_1
+  - 荷兰_1
   - 美国_6
-  - 新加坡_2
+  - 德国_2
+  - 德国_3
   - 美国_7
+  - 美国_8
+  - 俄罗斯_2
+  - 奥地利
+  - 美国_9
+  - 美国_10
+  - 美国_11
+  - 加拿大
+  - 俄罗斯_3
+  - 美国_12
+  - 俄罗斯_4
+  - 美国_13
+  - 德国_4
+  - 拉脱维亚
+  - 荷兰_2
+  - 俄罗斯_5
+  - 俄罗斯_6
+  - 俄罗斯_7
+  - 美国_14
+  - 美国_15
+  - 美国_16
+  - US_2
+  - 🇺🇸_US_美国
   - 香港_1
+  - 俄罗斯_8
   - 俄罗斯_9
-  - 香港_2
   - 俄罗斯_10
-  - 香港_3
+  - 未知
+  - RU
   - 俄罗斯_11
   - 俄罗斯_12
   - 俄罗斯_13
   - 俄罗斯_14
   - 俄罗斯_15
+  - 香港_2
   - 俄罗斯_16
-  - 未知_1
-  - 未知_2
-  - 未知_3
-  - 未知_4
-  - RU
+  - 香港_3
+  - 香港_4
+  - 香港_5
+  - 香港_6
+  - 香港_7
+  - 俄罗斯_17
+  - 香港_8
+  - 香港_9
+  - 香港_10
+  - 香港_11
+  - 香港_12
+  - 香港_13
+  - 香港_14
+  - 香港_15
+  - 新加坡
+  - 香港_16
+  - 美国_17
+  - 香港_17
+  - 香港_18
+  - 香港_19
+  - 香港_20
+  - 香港_21
+  - 香港_22
   type: select
 - name: 🍎 苹果服务
   proxies:
@@ -3674,54 +4014,77 @@ proxy-groups:
   - 德國_239
   - 德國_240
   - 🇩🇰DK_1|⬇️5.0MB/s
-  - 🇷🇺RU_2|⬇️4.8MB/s
   - 俄罗斯_1
-  - 俄罗斯_2
-  - 俄罗斯_3
-  - 日本_1
-  - 拉脱维亚
-  - 俄罗斯_4
-  - 新加坡_1
-  - 德国_1
-  - 德国_2
-  - 俄罗斯_5
-  - 俄羅斯_1
+  - US_1
   - 美国_1
-  - 俄羅斯_2
-  - 俄罗斯_6
   - 美国_2
-  - 俄罗斯_7
   - 美国_3
-  - 俄罗斯_8
-  - 德国_3
-  - 奧地利
-  - 德國_241
-  - 荷兰
-  - 日本_2
   - 美国_4
-  - US
   - 美国_5
-  - 🇷🇺_RU_俄罗斯
-  - 🇸🇦_SA_沙特阿拉伯
+  - 德国_1
+  - 荷兰_1
   - 美国_6
-  - 新加坡_2
+  - 德国_2
+  - 德国_3
   - 美国_7
+  - 美国_8
+  - 俄罗斯_2
+  - 奥地利
+  - 美国_9
+  - 美国_10
+  - 美国_11
+  - 加拿大
+  - 俄罗斯_3
+  - 美国_12
+  - 俄罗斯_4
+  - 美国_13
+  - 德国_4
+  - 拉脱维亚
+  - 荷兰_2
+  - 俄罗斯_5
+  - 俄罗斯_6
+  - 俄罗斯_7
+  - 美国_14
+  - 美国_15
+  - 美国_16
+  - US_2
+  - 🇺🇸_US_美国
   - 香港_1
+  - 俄罗斯_8
   - 俄罗斯_9
-  - 香港_2
   - 俄罗斯_10
-  - 香港_3
+  - 未知
+  - RU
   - 俄罗斯_11
   - 俄罗斯_12
   - 俄罗斯_13
   - 俄罗斯_14
   - 俄罗斯_15
+  - 香港_2
   - 俄罗斯_16
-  - 未知_1
-  - 未知_2
-  - 未知_3
-  - 未知_4
-  - RU
+  - 香港_3
+  - 香港_4
+  - 香港_5
+  - 香港_6
+  - 香港_7
+  - 俄罗斯_17
+  - 香港_8
+  - 香港_9
+  - 香港_10
+  - 香港_11
+  - 香港_12
+  - 香港_13
+  - 香港_14
+  - 香港_15
+  - 新加坡
+  - 香港_16
+  - 美国_17
+  - 香港_17
+  - 香港_18
+  - 香港_19
+  - 香港_20
+  - 香港_21
+  - 香港_22
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -3986,54 +4349,77 @@ proxy-groups:
   - 德國_239
   - 德國_240
   - 🇩🇰DK_1|⬇️5.0MB/s
-  - 🇷🇺RU_2|⬇️4.8MB/s
   - 俄罗斯_1
-  - 俄罗斯_2
-  - 俄罗斯_3
-  - 日本_1
-  - 拉脱维亚
-  - 俄罗斯_4
-  - 新加坡_1
-  - 德国_1
-  - 德国_2
-  - 俄罗斯_5
-  - 俄羅斯_1
+  - US_1
   - 美国_1
-  - 俄羅斯_2
-  - 俄罗斯_6
   - 美国_2
-  - 俄罗斯_7
   - 美国_3
-  - 俄罗斯_8
-  - 德国_3
-  - 奧地利
-  - 德國_241
-  - 荷兰
-  - 日本_2
   - 美国_4
-  - US
   - 美国_5
-  - 🇷🇺_RU_俄罗斯
-  - 🇸🇦_SA_沙特阿拉伯
+  - 德国_1
+  - 荷兰_1
   - 美国_6
-  - 新加坡_2
+  - 德国_2
+  - 德国_3
   - 美国_7
+  - 美国_8
+  - 俄罗斯_2
+  - 奥地利
+  - 美国_9
+  - 美国_10
+  - 美国_11
+  - 加拿大
+  - 俄罗斯_3
+  - 美国_12
+  - 俄罗斯_4
+  - 美国_13
+  - 德国_4
+  - 拉脱维亚
+  - 荷兰_2
+  - 俄罗斯_5
+  - 俄罗斯_6
+  - 俄罗斯_7
+  - 美国_14
+  - 美国_15
+  - 美国_16
+  - US_2
+  - 🇺🇸_US_美国
   - 香港_1
+  - 俄罗斯_8
   - 俄罗斯_9
-  - 香港_2
   - 俄罗斯_10
-  - 香港_3
+  - 未知
+  - RU
   - 俄罗斯_11
   - 俄罗斯_12
   - 俄罗斯_13
   - 俄罗斯_14
   - 俄罗斯_15
+  - 香港_2
   - 俄罗斯_16
-  - 未知_1
-  - 未知_2
-  - 未知_3
-  - 未知_4
-  - RU
+  - 香港_3
+  - 香港_4
+  - 香港_5
+  - 香港_6
+  - 香港_7
+  - 俄罗斯_17
+  - 香港_8
+  - 香港_9
+  - 香港_10
+  - 香港_11
+  - 香港_12
+  - 香港_13
+  - 香港_14
+  - 香港_15
+  - 新加坡
+  - 香港_16
+  - 美国_17
+  - 香港_17
+  - 香港_18
+  - 香港_19
+  - 香港_20
+  - 香港_21
+  - 香港_22
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
