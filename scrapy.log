@@ -1,4 +1,4 @@
-2025-12-24 08:38:16 [scrapy.middleware] INFO: Enabled downloader middlewares:
+2025-12-24 14:27:04 [scrapy.middleware] INFO: Enabled downloader middlewares:
 ['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
  'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
  'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
@@ -12,94 +12,94 @@
  'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
  'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
  'scrapy.downloadermiddlewares.stats.DownloaderStats']
-2025-12-24 08:38:16 [scrapy.middleware] INFO: Enabled spider middlewares:
+2025-12-24 14:27:04 [scrapy.middleware] INFO: Enabled spider middlewares:
 ['scrapy.spidermiddlewares.start.StartSpiderMiddleware',
  'scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
  'scrapy.spidermiddlewares.referer.RefererMiddleware',
  'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
  'scrapy.spidermiddlewares.depth.DepthMiddleware']
-2025-12-24 08:38:16 [scrapy.middleware] INFO: Enabled item pipelines:
+2025-12-24 14:27:04 [scrapy.middleware] INFO: Enabled item pipelines:
 ['NodeScrapy.pipelines.Pipeline']
-2025-12-24 08:38:16 [scrapy.core.engine] INFO: Spider opened
-2025-12-24 08:38:16 [py.warnings] WARNING: /opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/scrapy/core/spidermw.py:433: ScrapyDeprecationWarning: NodeScrapy.spiders.SimpleSpider.SimpleSpider defines the deprecated start_requests() method. start_requests() has been deprecated in favor of a new method, start(), to support asynchronous code execution. start_requests() will stop being called in a future version of Scrapy. If you use Scrapy 2.13 or higher only, replace start_requests() with start(); note that start() is a coroutine (async def). If you need to maintain compatibility with lower Scrapy versions, when overriding start_requests() in a spider class, override start() as well; you can use super() to reuse the inherited start() implementation without copy-pasting. See the release notes of Scrapy 2.13 for details: https://docs.scrapy.org/en/2.13/news.html
+2025-12-24 14:27:04 [scrapy.core.engine] INFO: Spider opened
+2025-12-24 14:27:05 [py.warnings] WARNING: /opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/scrapy/core/spidermw.py:433: ScrapyDeprecationWarning: NodeScrapy.spiders.SimpleSpider.SimpleSpider defines the deprecated start_requests() method. start_requests() has been deprecated in favor of a new method, start(), to support asynchronous code execution. start_requests() will stop being called in a future version of Scrapy. If you use Scrapy 2.13 or higher only, replace start_requests() with start(); note that start() is a coroutine (async def). If you need to maintain compatibility with lower Scrapy versions, when overriding start_requests() in a spider class, override start() as well; you can use super() to reuse the inherited start() implementation without copy-pasting. See the release notes of Scrapy 2.13 for details: https://docs.scrapy.org/en/2.13/news.html
   warn(
 
-2025-12-24 08:38:16 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
-2025-12-24 08:38:16 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
-2025-12-24 08:38:16 [simple] INFO: clashmeta start
-2025-12-24 08:38:16 [simple] INFO: ndnode start
-2025-12-24 08:38:16 [simple] INFO: nodev2ray start
-2025-12-24 08:38:16 [simple] INFO: nodefree start
-2025-12-24 08:38:16 [simple] INFO: v2rayshare start
-2025-12-24 08:38:16 [simple] INFO: wenode start
-2025-12-24 08:38:16 [simple] INFO: clashmeta found /free-nodes/2025-12-18-clash-meta-windows.htm on 2025-03-01
-2025-12-24 08:38:16 [simple] INFO: clashmeta found /free-nodes/2025-12-17-clash-meta-node-share.htm on 2025-03-01
-2025-12-24 08:38:16 [simple] INFO: clashmeta found /free-nodes/2025-12-16-node-share.htm on 2025-03-01
-2025-12-24 08:38:16 [simple] INFO: clashmeta found /free-nodes/2025-12-15-clash-meta-node-github.htm on 2025-03-01
-2025-12-24 08:38:16 [simple] INFO: clashmeta found /free-nodes/2025-12-14-clash-meta-node-github.htm on 2025-03-01
-2025-12-24 08:38:16 [simple] INFO: clashmeta found /free-nodes/2025-12-13-node-share-links.htm on 2025-03-01
-2025-12-24 08:38:16 [simple] INFO: clashmeta found /free-nodes/2025-12-11-free-high-speed-nodes.htm on 2025-03-01
-2025-12-24 08:38:16 [simple] INFO: clashmeta found /free-nodes/2025-12-10-clash-meta-windows.htm on 2025-03-01
-2025-12-24 08:38:16 [simple] INFO: clashmeta found /free-nodes/2025-12-9-node-share.htm on 2025-03-01
-2025-12-24 08:38:16 [simple] INFO: clashmeta found /free-nodes/2025-12-8-today-clash-meta-node.htm on 2025-03-01
-2025-12-24 08:38:16 [simple] INFO: clashmeta is up to date, exiting
-2025-12-24 08:38:16 [simple] INFO: clashmeta is up to date, exiting
-2025-12-24 08:38:16 [simple] INFO: clashmeta is up to date, exiting
-2025-12-24 08:38:16 [simple] INFO: nodev2ray is up to date, exiting
-2025-12-24 08:38:16 [simple] INFO: nodev2ray is up to date, exiting
-2025-12-24 08:38:16 [simple] INFO: nodev2ray is up to date, exiting
-2025-12-24 08:38:17 [simple] INFO: v2rayshare is up to date, exiting
-2025-12-24 08:38:17 [simple] INFO: v2rayshare is up to date, exiting
-2025-12-24 08:38:17 [simple] INFO: v2rayshare is up to date, exiting
-2025-12-24 08:38:17 [simple] INFO: ndnode is up to date, exiting
-2025-12-24 08:38:17 [simple] INFO: ndnode is up to date, exiting
-2025-12-24 08:38:17 [simple] INFO: ndnode is up to date, exiting
-2025-12-24 08:38:17 [simple] INFO: wenode is up to date, exiting
-2025-12-24 08:38:17 [simple] INFO: wenode is up to date, exiting
-2025-12-24 08:38:17 [simple] INFO: wenode is up to date, exiting
-2025-12-24 08:38:17 [simple] INFO: nodefree is up to date, exiting
-2025-12-24 08:38:17 [simple] INFO: nodefree is up to date, exiting
-2025-12-24 08:38:17 [simple] INFO: nodefree is up to date, exiting
-2025-12-24 08:38:17 [scrapy.core.engine] INFO: Closing spider (finished)
-2025-12-24 08:38:17 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
-{'downloader/request_bytes': 2930,
+2025-12-24 14:27:05 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-12-24 14:27:05 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2025-12-24 14:27:05 [simple] INFO: clashmeta start
+2025-12-24 14:27:05 [simple] INFO: ndnode start
+2025-12-24 14:27:05 [simple] INFO: nodev2ray start
+2025-12-24 14:27:05 [simple] INFO: nodefree start
+2025-12-24 14:27:05 [simple] INFO: v2rayshare start
+2025-12-24 14:27:05 [simple] INFO: wenode start
+2025-12-24 14:27:05 [simple] INFO: clashmeta found /free-nodes/2025-12-18-clash-meta-windows.htm on 2025-03-01
+2025-12-24 14:27:05 [simple] INFO: clashmeta found /free-nodes/2025-12-17-clash-meta-node-share.htm on 2025-03-01
+2025-12-24 14:27:05 [simple] INFO: clashmeta found /free-nodes/2025-12-16-node-share.htm on 2025-03-01
+2025-12-24 14:27:05 [simple] INFO: clashmeta found /free-nodes/2025-12-15-clash-meta-node-github.htm on 2025-03-01
+2025-12-24 14:27:05 [simple] INFO: clashmeta found /free-nodes/2025-12-14-clash-meta-node-github.htm on 2025-03-01
+2025-12-24 14:27:05 [simple] INFO: clashmeta found /free-nodes/2025-12-13-node-share-links.htm on 2025-03-01
+2025-12-24 14:27:05 [simple] INFO: clashmeta found /free-nodes/2025-12-11-free-high-speed-nodes.htm on 2025-03-01
+2025-12-24 14:27:05 [simple] INFO: clashmeta found /free-nodes/2025-12-10-clash-meta-windows.htm on 2025-03-01
+2025-12-24 14:27:05 [simple] INFO: clashmeta found /free-nodes/2025-12-9-node-share.htm on 2025-03-01
+2025-12-24 14:27:05 [simple] INFO: clashmeta found /free-nodes/2025-12-8-today-clash-meta-node.htm on 2025-03-01
+2025-12-24 14:27:05 [simple] INFO: clashmeta is up to date, exiting
+2025-12-24 14:27:05 [simple] INFO: clashmeta is up to date, exiting
+2025-12-24 14:27:05 [simple] INFO: clashmeta is up to date, exiting
+2025-12-24 14:27:05 [simple] INFO: v2rayshare is up to date, exiting
+2025-12-24 14:27:05 [simple] INFO: v2rayshare is up to date, exiting
+2025-12-24 14:27:05 [simple] INFO: v2rayshare is up to date, exiting
+2025-12-24 14:27:05 [simple] INFO: ndnode is up to date, exiting
+2025-12-24 14:27:05 [simple] INFO: ndnode is up to date, exiting
+2025-12-24 14:27:05 [simple] INFO: ndnode is up to date, exiting
+2025-12-24 14:27:05 [simple] INFO: nodev2ray is up to date, exiting
+2025-12-24 14:27:05 [simple] INFO: nodev2ray is up to date, exiting
+2025-12-24 14:27:05 [simple] INFO: nodev2ray is up to date, exiting
+2025-12-24 14:27:05 [simple] INFO: nodefree is up to date, exiting
+2025-12-24 14:27:05 [simple] INFO: nodefree is up to date, exiting
+2025-12-24 14:27:05 [simple] INFO: nodefree is up to date, exiting
+2025-12-24 14:27:06 [simple] INFO: wenode is up to date, exiting
+2025-12-24 14:27:06 [simple] INFO: wenode is up to date, exiting
+2025-12-24 14:27:06 [simple] INFO: wenode is up to date, exiting
+2025-12-24 14:27:06 [scrapy.core.engine] INFO: Closing spider (finished)
+2025-12-24 14:27:06 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 2824,
  'downloader/request_count': 9,
  'downloader/request_method_count/GET': 9,
- 'downloader/response_bytes': 51892,
+ 'downloader/response_bytes': 51274,
  'downloader/response_count': 9,
  'downloader/response_status_count/200': 6,
  'downloader/response_status_count/301': 3,
- 'elapsed_time_seconds': 0.975766,
+ 'elapsed_time_seconds': 1.009073,
  'finish_reason': 'finished',
- 'finish_time': datetime.datetime(2025, 12, 24, 8, 38, 17, 489867, tzinfo=datetime.timezone.utc),
- 'httpcompression/response_bytes': 274692,
+ 'finish_time': datetime.datetime(2025, 12, 24, 14, 27, 6, 41021, tzinfo=datetime.timezone.utc),
+ 'httpcompression/response_bytes': 270556,
  'httpcompression/response_count': 6,
- 'items_per_minute': None,
+ 'items_per_minute': 0.0,
  'log_count/INFO': 44,
  'log_count/WARNING': 2,
  'memusage/max': 178749440,
  'memusage/startup': 178749440,
  'response_received_count': 6,
- 'responses_per_minute': None,
+ 'responses_per_minute': 360.0,
  'scheduler/dequeued': 9,
  'scheduler/dequeued/memory': 9,
  'scheduler/enqueued': 9,
  'scheduler/enqueued/memory': 9,
- 'start_time': datetime.datetime(2025, 12, 24, 8, 38, 16, 514101, tzinfo=datetime.timezone.utc)}
-2025-12-24 08:38:17 [scrapy.core.engine] INFO: Spider closed (finished)
-2025-12-24 08:38:25 [scrapy.addons] INFO: Enabled addons:
+ 'start_time': datetime.datetime(2025, 12, 24, 14, 27, 5, 31948, tzinfo=datetime.timezone.utc)}
+2025-12-24 14:27:06 [scrapy.core.engine] INFO: Spider closed (finished)
+2025-12-24 14:27:14 [scrapy.addons] INFO: Enabled addons:
 []
-2025-12-24 08:38:25 [py.warnings] WARNING: /opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/scrapy/utils/request.py:120: ScrapyDeprecationWarning: 'REQUEST_FINGERPRINTER_IMPLEMENTATION' is a deprecated setting.
+2025-12-24 14:27:14 [py.warnings] WARNING: /opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/scrapy/utils/request.py:120: ScrapyDeprecationWarning: 'REQUEST_FINGERPRINTER_IMPLEMENTATION' is a deprecated setting.
 It will be removed in a future version of Scrapy.
   return cls(crawler)
 
-2025-12-24 08:38:25 [scrapy.extensions.telnet] INFO: Telnet Password: 4695159aa8a64f72
-2025-12-24 08:38:25 [scrapy.middleware] INFO: Enabled extensions:
+2025-12-24 14:27:14 [scrapy.extensions.telnet] INFO: Telnet Password: 232754fb546e57bd
+2025-12-24 14:27:14 [scrapy.middleware] INFO: Enabled extensions:
 ['scrapy.extensions.corestats.CoreStats',
  'scrapy.extensions.telnet.TelnetConsole',
  'scrapy.extensions.memusage.MemoryUsage',
  'scrapy.extensions.logstats.LogStats']
-2025-12-24 08:38:25 [scrapy.crawler] INFO: Overridden settings:
+2025-12-24 14:27:14 [scrapy.crawler] INFO: Overridden settings:
 {'BOT_NAME': 'NodeScrapy',
  'FEED_EXPORT_ENCODING': 'utf-8',
  'LOG_FILE': 'scrapy.log',
@@ -107,7 +107,7 @@ It will be removed in a future version of Scrapy.
  'NEWSPIDER_MODULE': 'NodeScrapy.spiders',
  'REQUEST_FINGERPRINTER_IMPLEMENTATION': '2.7',
  'SPIDER_MODULES': ['NodeScrapy.spiders']}
-2025-12-24 08:38:25 [scrapy.middleware] INFO: Enabled downloader middlewares:
+2025-12-24 14:27:14 [scrapy.middleware] INFO: Enabled downloader middlewares:
 ['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
  'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
  'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
@@ -121,101 +121,24 @@ It will be removed in a future version of Scrapy.
  'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
  'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
  'scrapy.downloadermiddlewares.stats.DownloaderStats']
-2025-12-24 08:38:25 [scrapy.middleware] INFO: Enabled spider middlewares:
+2025-12-24 14:27:14 [scrapy.middleware] INFO: Enabled spider middlewares:
 ['scrapy.spidermiddlewares.start.StartSpiderMiddleware',
  'scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
  'scrapy.spidermiddlewares.referer.RefererMiddleware',
  'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
  'scrapy.spidermiddlewares.depth.DepthMiddleware']
-2025-12-24 08:38:25 [scrapy.middleware] INFO: Enabled item pipelines:
+2025-12-24 14:27:14 [scrapy.middleware] INFO: Enabled item pipelines:
 ['NodeScrapy.pipelines.Pipeline']
-2025-12-24 08:38:25 [scrapy.core.engine] INFO: Spider opened
-2025-12-24 08:38:25 [py.warnings] WARNING: /opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/scrapy/core/spidermw.py:433: ScrapyDeprecationWarning: NodeScrapy.spiders.SimpleSpider.SimpleSpider (inherited by NodeScrapy.spiders.DecryptSpider.DecryptSpider) defines the deprecated start_requests() method. start_requests() has been deprecated in favor of a new method, start(), to support asynchronous code execution. start_requests() will stop being called in a future version of Scrapy. If you use Scrapy 2.13 or higher only, replace start_requests() with start(); note that start() is a coroutine (async def). If you need to maintain compatibility with lower Scrapy versions, when overriding start_requests() in a spider class, override start() as well; you can use super() to reuse the inherited start() implementation without copy-pasting. See the release notes of Scrapy 2.13 for details: https://docs.scrapy.org/en/2.13/news.html
+2025-12-24 14:27:14 [scrapy.core.engine] INFO: Spider opened
+2025-12-24 14:27:14 [py.warnings] WARNING: /opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/scrapy/core/spidermw.py:433: ScrapyDeprecationWarning: NodeScrapy.spiders.SimpleSpider.SimpleSpider (inherited by NodeScrapy.spiders.DecryptSpider.DecryptSpider) defines the deprecated start_requests() method. start_requests() has been deprecated in favor of a new method, start(), to support asynchronous code execution. start_requests() will stop being called in a future version of Scrapy. If you use Scrapy 2.13 or higher only, replace start_requests() with start(); note that start() is a coroutine (async def). If you need to maintain compatibility with lower Scrapy versions, when overriding start_requests() in a spider class, override start() as well; you can use super() to reuse the inherited start() implementation without copy-pasting. See the release notes of Scrapy 2.13 for details: https://docs.scrapy.org/en/2.13/news.html
   warn(
 
-2025-12-24 08:38:25 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
-2025-12-24 08:38:25 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
-2025-12-24 08:38:25 [decrypt] INFO: yudou66 start
-2025-12-24 08:38:25 [decrypt] INFO: blues start
-2025-12-24 08:38:25 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2025/12/202512244kchatgpt4k8kclashv2ray.html
-2025-12-24 08:38:25 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2025/12/202512234kchatgpt4k8kclashv2ray.html
-2025-12-24 08:38:25 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2025/12/202512224kchatgpt4k8kclashv2ray.html
-2025-12-24 08:38:28 [decrypt] WARNING: blues 3355 got 密碼錯誤
-2025-12-24 08:38:29 [decrypt] WARNING: blues 0000 got 密碼錯誤
-2025-12-24 08:38:30 [decrypt] WARNING: blues 0011 got 密碼錯誤
-2025-12-24 08:38:31 [decrypt] WARNING: blues 0022 got 密碼錯誤
-2025-12-24 08:38:32 [decrypt] WARNING: blues 0033 got 密碼錯誤
-2025-12-24 08:38:34 [decrypt] WARNING: blues 0044 got 密碼錯誤
-2025-12-24 08:38:35 [decrypt] WARNING: blues 0055 got 密碼錯誤
-2025-12-24 08:38:36 [decrypt] WARNING: blues 0066 got 密碼錯誤
-2025-12-24 08:38:37 [decrypt] WARNING: blues 0077 got 密碼錯誤
-2025-12-24 08:38:38 [decrypt] WARNING: blues 0088 got 密碼錯誤
-2025-12-24 08:38:39 [decrypt] WARNING: blues 0099 got 密碼錯誤
-2025-12-24 08:38:41 [decrypt] WARNING: blues 1100 got 密碼錯誤
-2025-12-24 08:38:42 [decrypt] WARNING: blues 1111 got 密碼錯誤
-2025-12-24 08:38:43 [decrypt] WARNING: blues 1122 got 密碼錯誤
-2025-12-24 08:38:44 [decrypt] WARNING: blues 1133 got 密碼錯誤
-2025-12-24 08:38:45 [decrypt] WARNING: blues 1144 got 密碼錯誤
-2025-12-24 08:38:48 [decrypt] INFO: blues saved new password 1155
-2025-12-24 08:38:49 [decrypt] WARNING: blues 1155 got 密碼錯誤
-2025-12-24 08:38:50 [decrypt] WARNING: blues 0000 got 密碼錯誤
-2025-12-24 08:38:51 [decrypt] WARNING: blues 0011 got 密碼錯誤
-2025-12-24 08:38:52 [decrypt] WARNING: blues 0022 got 密碼錯誤
-2025-12-24 08:38:53 [decrypt] WARNING: blues 0033 got 密碼錯誤
-2025-12-24 08:38:54 [decrypt] WARNING: blues 0044 got 密碼錯誤
-2025-12-24 08:38:55 [decrypt] WARNING: blues 0055 got 密碼錯誤
-2025-12-24 08:38:56 [decrypt] WARNING: blues 0066 got 密碼錯誤
-2025-12-24 08:38:57 [decrypt] WARNING: blues 0077 got 密碼錯誤
-2025-12-24 08:38:58 [decrypt] WARNING: blues 0088 got 密碼錯誤
-2025-12-24 08:38:59 [decrypt] WARNING: blues 0099 got 密碼錯誤
-2025-12-24 08:39:00 [decrypt] WARNING: blues 1100 got 密碼錯誤
-2025-12-24 08:39:01 [decrypt] WARNING: blues 1111 got 密碼錯誤
-2025-12-24 08:39:02 [decrypt] WARNING: blues 1122 got 密碼錯誤
-2025-12-24 08:39:03 [decrypt] WARNING: blues 1133 got 密碼錯誤
-2025-12-24 08:39:04 [decrypt] WARNING: blues 1144 got 密碼錯誤
-2025-12-24 08:39:05 [decrypt] WARNING: blues 1155 got 密碼錯誤
-2025-12-24 08:39:05 [decrypt] WARNING: blues 1166 got 密碼錯誤
-2025-12-24 08:39:06 [decrypt] WARNING: blues 1177 got 密碼錯誤
-2025-12-24 08:39:07 [decrypt] WARNING: blues 1188 got 密碼錯誤
-2025-12-24 08:39:08 [decrypt] WARNING: blues 1199 got 密碼錯誤
-2025-12-24 08:39:09 [decrypt] WARNING: blues 2200 got 密碼錯誤
-2025-12-24 08:39:10 [decrypt] WARNING: blues 2211 got 密碼錯誤
-2025-12-24 08:39:11 [decrypt] WARNING: blues 2222 got 密碼錯誤
-2025-12-24 08:39:12 [decrypt] WARNING: blues 2233 got 密碼錯誤
-2025-12-24 08:39:13 [decrypt] WARNING: blues 2244 got 密碼錯誤
-2025-12-24 08:39:14 [decrypt] WARNING: blues 2255 got 密碼錯誤
-2025-12-24 08:39:15 [decrypt] WARNING: blues 2266 got 密碼錯誤
-2025-12-24 08:39:16 [decrypt] WARNING: blues 2277 got 密碼錯誤
-2025-12-24 08:39:17 [decrypt] WARNING: blues 2288 got 密碼錯誤
-2025-12-24 08:39:18 [decrypt] WARNING: blues 2299 got 密碼錯誤
-2025-12-24 08:39:19 [decrypt] WARNING: blues 3300 got 密碼錯誤
-2025-12-24 08:39:20 [decrypt] WARNING: blues 3311 got 密碼錯誤
-2025-12-24 08:39:21 [decrypt] WARNING: blues 3322 got 密碼錯誤
-2025-12-24 08:39:22 [decrypt] WARNING: blues 3333 got 密碼錯誤
-2025-12-24 08:39:23 [decrypt] WARNING: blues 3344 got 密碼錯誤
-2025-12-24 08:39:24 [decrypt] WARNING: blues 3355 got 密碼錯誤
-2025-12-24 08:39:25 [decrypt] WARNING: blues 3366 got 密碼錯誤
-2025-12-24 08:39:28 [decrypt] INFO: blues saved new password 3377
-2025-12-24 08:39:29 [decrypt] WARNING: blues 3377 got 密碼錯誤
-2025-12-24 08:39:30 [decrypt] WARNING: blues 0000 got 密碼錯誤
-2025-12-24 08:39:31 [decrypt] WARNING: blues 0011 got 密碼錯誤
-2025-12-24 08:39:32 [decrypt] WARNING: blues 0022 got 密碼錯誤
-2025-12-24 08:39:33 [decrypt] WARNING: blues 0033 got 密碼錯誤
-2025-12-24 08:39:34 [decrypt] WARNING: blues 0044 got 密碼錯誤
-2025-12-24 08:39:35 [decrypt] WARNING: blues 0055 got 密碼錯誤
-2025-12-24 08:39:36 [decrypt] WARNING: blues 0066 got 密碼錯誤
-2025-12-24 08:39:37 [decrypt] WARNING: blues 0077 got 密碼錯誤
-2025-12-24 08:39:38 [decrypt] WARNING: blues 0088 got 密碼錯誤
-2025-12-24 08:39:39 [decrypt] WARNING: blues 0099 got 密碼錯誤
-2025-12-24 08:39:40 [decrypt] WARNING: blues 1100 got 密碼錯誤
-2025-12-24 08:39:41 [decrypt] WARNING: blues 1111 got 密碼錯誤
-2025-12-24 08:39:42 [decrypt] WARNING: blues 1122 got 密碼錯誤
-2025-12-24 08:39:43 [decrypt] WARNING: blues 1133 got 密碼錯誤
-2025-12-24 08:39:44 [decrypt] WARNING: blues 1144 got 密碼錯誤
-2025-12-24 08:39:47 [decrypt] INFO: blues saved new password 1155
-2025-12-24 08:39:47 [scrapy.extensions.logstats] INFO: Crawled 4 pages (at 4 pages/min), scraped 0 items (at 0 items/min)
-2025-12-24 08:39:47 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://www.yudou123.top/> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
-2025-12-24 08:39:47 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.yudou123.top/>
+2025-12-24 14:27:14 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-12-24 14:27:14 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2025-12-24 14:27:14 [decrypt] INFO: yudou66 start
+2025-12-24 14:27:14 [decrypt] INFO: blues start
+2025-12-24 14:27:15 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://www.yudou123.top/> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2025-12-24 14:27:15 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.yudou123.top/>
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/twisted/internet/defer.py", line 1853, in _inlineCallbacks
     result = context.run(
@@ -227,37 +150,81 @@ Traceback (most recent call last):
     return (yield download_func(request, spider))
             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
-2025-12-24 08:39:47 [scrapy.core.engine] INFO: Closing spider (finished)
-2025-12-24 08:39:47 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+2025-12-24 14:27:15 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2025/12/202512244kchatgpt4k8kclashv2ray.html
+2025-12-24 14:27:15 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2025/12/202512234kchatgpt4k8kclashv2ray.html
+2025-12-24 14:27:15 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2025/12/202512224kchatgpt4k8kclashv2ray.html
+2025-12-24 14:27:22 [decrypt] WARNING: blues 1155 got 密碼錯誤
+2025-12-24 14:27:23 [decrypt] WARNING: blues 0000 got 密碼錯誤
+2025-12-24 14:27:24 [decrypt] WARNING: blues 0011 got 密碼錯誤
+2025-12-24 14:27:25 [decrypt] WARNING: blues 0022 got 密碼錯誤
+2025-12-24 14:27:27 [decrypt] WARNING: blues 0033 got 密碼錯誤
+2025-12-24 14:27:28 [decrypt] WARNING: blues 0044 got 密碼錯誤
+2025-12-24 14:27:29 [decrypt] WARNING: blues 0055 got 密碼錯誤
+2025-12-24 14:27:30 [decrypt] WARNING: blues 0066 got 密碼錯誤
+2025-12-24 14:27:31 [decrypt] WARNING: blues 0077 got 密碼錯誤
+2025-12-24 14:27:32 [decrypt] WARNING: blues 0088 got 密碼錯誤
+2025-12-24 14:27:33 [decrypt] WARNING: blues 0099 got 密碼錯誤
+2025-12-24 14:27:34 [decrypt] WARNING: blues 1100 got 密碼錯誤
+2025-12-24 14:27:36 [decrypt] WARNING: blues 1111 got 密碼錯誤
+2025-12-24 14:27:37 [decrypt] WARNING: blues 1122 got 密碼錯誤
+2025-12-24 14:27:38 [decrypt] WARNING: blues 1133 got 密碼錯誤
+2025-12-24 14:27:39 [decrypt] WARNING: blues 1144 got 密碼錯誤
+2025-12-24 14:27:40 [decrypt] WARNING: blues 1155 got 密碼錯誤
+2025-12-24 14:27:41 [decrypt] WARNING: blues 1166 got 密碼錯誤
+2025-12-24 14:27:42 [decrypt] WARNING: blues 1177 got 密碼錯誤
+2025-12-24 14:27:43 [decrypt] WARNING: blues 1188 got 密碼錯誤
+2025-12-24 14:27:45 [decrypt] WARNING: blues 1199 got 密碼錯誤
+2025-12-24 14:27:46 [decrypt] WARNING: blues 2200 got 密碼錯誤
+2025-12-24 14:27:46 [decrypt] WARNING: blues 2211 got 密碼錯誤
+2025-12-24 14:27:47 [decrypt] WARNING: blues 2222 got 密碼錯誤
+2025-12-24 14:27:49 [decrypt] WARNING: blues 2233 got 密碼錯誤
+2025-12-24 14:27:50 [decrypt] WARNING: blues 2244 got 密碼錯誤
+2025-12-24 14:27:51 [decrypt] WARNING: blues 2255 got 密碼錯誤
+2025-12-24 14:27:52 [decrypt] WARNING: blues 2266 got 密碼錯誤
+2025-12-24 14:27:53 [decrypt] WARNING: blues 2277 got 密碼錯誤
+2025-12-24 14:27:54 [decrypt] WARNING: blues 2288 got 密碼錯誤
+2025-12-24 14:27:55 [decrypt] WARNING: blues 2299 got 密碼錯誤
+2025-12-24 14:27:56 [decrypt] WARNING: blues 3300 got 密碼錯誤
+2025-12-24 14:27:57 [decrypt] WARNING: blues 3311 got 密碼錯誤
+2025-12-24 14:27:58 [decrypt] WARNING: blues 3322 got 密碼錯誤
+2025-12-24 14:27:59 [decrypt] WARNING: blues 3333 got 密碼錯誤
+2025-12-24 14:28:00 [decrypt] WARNING: blues 3344 got 密碼錯誤
+2025-12-24 14:28:01 [decrypt] WARNING: blues 3355 got 密碼錯誤
+2025-12-24 14:28:02 [decrypt] WARNING: blues 3366 got 密碼錯誤
+2025-12-24 14:28:03 [decrypt] WARNING: blues 3377 got 密碼錯誤
+2025-12-24 14:28:04 [decrypt] WARNING: blues 3388 got 密碼錯誤
+2025-12-24 14:28:07 [decrypt] INFO: blues saved new password 3399
+2025-12-24 14:28:10 [scrapy.core.engine] INFO: Closing spider (finished)
+2025-12-24 14:28:10 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
 {'downloader/exception_count': 3,
  'downloader/exception_type_count/twisted.web._newclient.ResponseNeverReceived': 3,
- 'downloader/request_bytes': 3675,
- 'downloader/request_count': 10,
- 'downloader/request_method_count/GET': 10,
- 'downloader/response_bytes': 168177,
- 'downloader/response_count': 7,
+ 'downloader/request_bytes': 4136,
+ 'downloader/request_count': 11,
+ 'downloader/request_method_count/GET': 11,
+ 'downloader/response_bytes': 168932,
+ 'downloader/response_count': 8,
  'downloader/response_status_count/200': 4,
- 'downloader/response_status_count/302': 3,
- 'elapsed_time_seconds': 82.415684,
+ 'downloader/response_status_count/302': 4,
+ 'elapsed_time_seconds': 56.084849,
  'finish_reason': 'finished',
- 'finish_time': datetime.datetime(2025, 12, 24, 8, 39, 47, 768734, tzinfo=datetime.timezone.utc),
- 'httpcompression/response_bytes': 972705,
+ 'finish_time': datetime.datetime(2025, 12, 24, 14, 28, 10, 898975, tzinfo=datetime.timezone.utc),
+ 'httpcompression/response_bytes': 972714,
  'httpcompression/response_count': 4,
  'items_per_minute': 0.0,
  'log_count/ERROR': 2,
- 'log_count/INFO': 19,
- 'log_count/WARNING': 72,
- 'memusage/max': 185724928,
- 'memusage/startup': 178253824,
+ 'log_count/INFO': 16,
+ 'log_count/WARNING': 42,
+ 'memusage/max': 178343936,
+ 'memusage/startup': 178343936,
  'request_depth_max': 1,
  'response_received_count': 4,
- 'responses_per_minute': 2.926829268292683,
+ 'responses_per_minute': 4.285714285714286,
  'retry/count': 2,
  'retry/max_reached': 1,
  'retry/reason_count/twisted.web._newclient.ResponseNeverReceived': 2,
- 'scheduler/dequeued': 10,
- 'scheduler/dequeued/memory': 10,
- 'scheduler/enqueued': 10,
- 'scheduler/enqueued/memory': 10,
- 'start_time': datetime.datetime(2025, 12, 24, 8, 38, 25, 353050, tzinfo=datetime.timezone.utc)}
-2025-12-24 08:39:47 [scrapy.core.engine] INFO: Spider closed (finished)
+ 'scheduler/dequeued': 11,
+ 'scheduler/dequeued/memory': 11,
+ 'scheduler/enqueued': 11,
+ 'scheduler/enqueued/memory': 11,
+ 'start_time': datetime.datetime(2025, 12, 24, 14, 27, 14, 814126, tzinfo=datetime.timezone.utc)}
+2025-12-24 14:28:10 [scrapy.core.engine] INFO: Spider closed (finished)
